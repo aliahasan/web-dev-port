@@ -211,23 +211,38 @@ main section {
 }
 
 /* CONTACT STYLE FROM  HERE */
+footer {
+    background: #FFF8F3;
+}
 
 .contact-area {
     display: flex;
     gap: 80px;
+    padding: 130px 230px;
 }
 
-#name {
+.contact-form input,
+textarea {
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
     border: none;
-    margin: 10px 0px;
+    background: #fff;
+    width: 100%;
 }
 
-#email {
-    border: none;
-    margin: 10px 0px;
+.social-links a {
+    margin-right: 20px;
 }
 
-#text-area {
-    border: none;
-    margin: 10px 0px;
+.left-side {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.copyright {
+    text-align: right;
+    color: navy;
+
 }
