@@ -13,8 +13,6 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0px 200px;
-
-
 }
 
 .nav-title {
@@ -30,7 +28,6 @@ body {
 .navbar ul {
     display: flex;
     align-items: center;
-
 }
 
 .navbar li {
@@ -43,7 +40,6 @@ body {
 .navbar a {
     text-decoration: none;
     color: #474747;
-
 }
 
 .btn {
@@ -67,7 +63,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .banner-image {
@@ -80,7 +75,6 @@ body {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0px;
-
 }
 
 .banner-title {
@@ -129,6 +123,10 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 .about-info-container {
     display: flex;
     justify-content: space-around;
@@ -140,4 +138,96 @@ main {
 
 #what-i-do-description {
     padding: 30px 150px;
+}
+
+/* skill style start from here */
+
+.skill-container {
+    display: flex;
+    gap: 25px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* RESUME DESIGN STARR FORM HERE */
+.resume-summary {
+    margin-bottom: 100px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+}
+
+.resume-container hr {
+    margin: 20px 0px;
+}
+
+.education-title,
+.experience-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.degree-name,
+.experience-sector {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.institute,
+.current-office {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.education-details,
+.experience-details {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.resume-btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* CONTACT STYLE FROM  HERE */
+
+.contact-area {
+    display: flex;
+    gap: 80px;
+}
+
+#name {
+    border: none;
+    margin: 10px 0px;
+}
+
+#email {
+    border: none;
+    margin: 10px 0px;
+}
+
+#text-area {
+    border: none;
+    margin: 10px 0px;
 }
